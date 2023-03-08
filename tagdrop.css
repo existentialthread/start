@@ -5,7 +5,7 @@
    ========================================================================== */
 
 /**
- * v.11
+ * v.12
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
@@ -71,14 +71,14 @@ font-weight: 400;
 
 
 h4 {
-  font-size: 8pt;
+  font-size: 7pt;
 	font-family: "gotham";
 	font-style: normal;
-font-weight: 300;
+font-weight: 400;
   margin: 0.67em 0;
 	color: #ffffff;
-	line-height: 0px;
-	letter-spacing: 1.2em;
+	line-height: 8px;
+	letter-spacing: .6em;
 }
 
 /* Grouping content
@@ -729,12 +729,18 @@ letter-spacing: 0.5em;
 #ch-priority * {
   box-sizing: border-box;
 	
+	
 }
 #ch-priority {
   display: block;
   min-width: 200px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+		position: absolute;
+	width: 200px;
+left: 380px;
+top: 1050px;
+
 	
 }
 #ch-priority .ch-priority-group {
@@ -761,6 +767,12 @@ border: 2px solid #FFFFFF;
   width: 100%;
   flex: 1 0 80%;
 background: none;
+	font-family: 'ROBOTO';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+text-align: LEFT;
+letter-spacing: .1em;
 
 }
 #ch-priority .ch-priority-group-add-item {
@@ -793,11 +805,18 @@ background: none;
   line-height: 0;
   position: relative;
   border-radius: 0 2px 2px 0;
+	font-family: 'century gothic';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+text-align: center;
+letter-spacing: .05em;
 }
 #ch-priority .input-group-btn button:hover {
   color: #fff;
   background-color: #2d2d2d;
   cursor: pointer;
+	
 }
 #ch-priority .ch-icon {
   width: 32px;
@@ -876,6 +895,10 @@ background: none;
   justify-content: center;
   align-items: center;
   margin-bottom: 1em;
+			position: absolute;
+	width: 212px;
+left: 384px;
+top: 1100px;
 }
 #ch-token-copy {
   border: none;
@@ -895,13 +918,13 @@ background: none;
   opacity: 1;
 }
 #ch-token {
-  color: orange;
+  color: white;
   border-radius: 4px;
   padding: 2px 4px;
   font-size: 90%;
 }
 #ch-token:hover {
-  color: orange;
+  color: #FD6262;
   background-color: #787876;
   cursor: pointer;
 }
