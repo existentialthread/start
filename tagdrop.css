@@ -51,10 +51,10 @@ top: 325px;
 }
 
 h3 {
-  font-size: 22pt;
+  font-size: 35pt;
 	font-family: "gotham";
 	color: #ffffff;
-	line-height: 80px;
+	line-height: 180px;
 
 }
 
@@ -526,7 +526,7 @@ letter-spacing: 0.15em;
   height: 20px;
   margin-bottom: 20px;
   overflow: hidden;
-  background-color: #ebebeb;
+  background-color: #ffffff;
   border-radius: 2px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
