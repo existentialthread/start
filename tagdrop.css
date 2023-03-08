@@ -428,10 +428,11 @@ border: 5px solid #FFFFFF;
   margin: 0.5em 0;
   padding: 0.5em 0;
 	line-height: 20px;
+	
 }
 p.lead {
-  font-size: 2em;
-	line-height: 30px;
+  font-size: 5em;
+	line-height: 20pt;
 }
 .loading #ch-countdown,
 .loading #ch-position,
