@@ -1011,3 +1011,31 @@ letter-spacing: 0.305em;
 color: #FFFFFF;
 
 }
+
+.second-container {
+  max-width: 777px;=
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+	
+		/* Rectangle 2 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 800px;
+height: 900px;
+left: 900px;
+top: 105px;
+
+border: 5px solid #FFFFFF;
+}
+.second-section {
+  text-align: center;
+  margin: 0.5em 0;
+  padding: 0.5em 0;
+	line-height: 20px;
+	
+}
