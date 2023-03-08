@@ -5,7 +5,7 @@
    ========================================================================== */
 
 /**
- * v.13
+ * v.15
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
@@ -769,6 +769,7 @@ border: 2px solid #FFFFFF;
 background: none;
 	font-family: 'ROBOTO';
 font-style: normal;
+	 color: #fff;
 font-weight: 400;
 font-size: 13px;
 text-align: LEFT;
@@ -784,6 +785,7 @@ letter-spacing: .1em;
   height: 32px;
 		font-family: 'ROBOTO';
 font-style: normal;
+	 color: #fff;
 font-weight: 400;
 font-size: 13px;
 text-align: LEFT;
@@ -875,6 +877,7 @@ font-weight: 400;
 font-size: 13px;
 text-align: LEFT;
 letter-spacing: .1em;
+	   color: #fff;
 	
   }
   #ch-priority .input-group-btn button {
