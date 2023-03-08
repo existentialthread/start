@@ -5,7 +5,7 @@
    ========================================================================== */
 
 /**
- * v.12
+ * v.13
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
@@ -782,6 +782,12 @@ letter-spacing: .1em;
   padding: 0;
   width: 32px;
   height: 32px;
+		font-family: 'ROBOTO';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+text-align: LEFT;
+letter-spacing: .1em;
 }
 #ch-priority .ch-priority-group-add-field:first-child,
 #ch-priority .ch-priority-group-add-item:first-child {
@@ -863,6 +869,12 @@ letter-spacing: .05em;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     -webkit-appearance: none;
+	  	font-family: 'ROBOTO';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+text-align: LEFT;
+letter-spacing: .1em;
 	
   }
   #ch-priority .input-group-btn button {
