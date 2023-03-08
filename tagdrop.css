@@ -5,7 +5,7 @@
    ========================================================================== */
 
 /**
-* v.3
+* v.4
 * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
@@ -1026,7 +1026,7 @@ color: #FFFFFF;
 box-sizing: border-box;
 
 position: absolute;
-width: 700px;
+width: 500px;
 height: 900px;
 left: 850px;
 top: 20px;
