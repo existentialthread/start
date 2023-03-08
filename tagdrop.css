@@ -431,6 +431,7 @@ border: 5px solid #FFFFFF;
 }
 p.lead {
   font-size: 2em;
+	line-height: 30px;
 }
 .loading #ch-countdown,
 .loading #ch-position,
@@ -982,7 +983,7 @@ color: #FFFFFF;
 
 
 #mission {
-	/*DATE III · IX · MMXXIII */
+	/* III · IX · MMXXIII */
 
 position: absolute;
 width: 692px;
