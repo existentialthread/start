@@ -1,0 +1,1016 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 10pt;
+	font-family: "gotham";
+  margin: 0.67em 0;
+	color: #ffffff;
+	line-height: 0px;
+	position: absolute;
+
+left: 294px;
+top: 325px;
+}
+
+h5 {
+  font-size: 120pt;
+	font-family: "gotham";
+	font-style: normal;
+font-weight: 400;
+  margin: 0.67em 0;
+	color: #ffffff;
+	line-height: 0px;
+}
+
+
+h4 {
+  font-size: 8pt;
+	font-family: "gotham";
+	font-style: normal;
+font-weight: 300;
+  margin: 0.67em 0;
+	color: #ffffff;
+	line-height: 0px;
+	letter-spacing: 1.2em;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+html,
+body {
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-size: 100%;
+	color: #ffffff;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+	
+font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 0.04em;
+	
+	
+
+	
+}
+.ch-container {
+  max-width: 777px;=
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+	
+		/* Rectangle 1 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 800px;
+height: 900px;
+left: 106px;
+top: 105px;
+
+border: 5px solid #FFFFFF;
+}
+.ch-section {
+  text-align: center;
+  margin: 0.5em 0;
+  padding: 0.5em 0;
+}
+p.lead {
+  font-size: 2em;
+}
+.loading #ch-countdown,
+.loading #ch-position,
+.loading #ch-blocked,
+.loading #ch-full,
+.loading #ch-prelude,
+.loading #ch-sooner,
+.loading #ch-later,
+.loading #ch-active,
+.loading #ch-priority,
+.loading #ch-room-full {
+  display: none;
+}
+
+#trust {
+	/* TRUST IN TRANSPARENCY */
+
+
+position: absolute;
+width: 692px;
+height: 54px;
+left: 128px;
+top: 198px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.18em;
+
+color: #FFFFFF;
+}
+
+#ch-logo {
+
+position: absolute;
+	width: 212px;
+height: 78px;
+left: 280px;
+top: -44px;
+
+}
+
+#ch-header h1,
+#ch-header h2 {
+
+font-family: 'century gothic';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.40em;
+
+color: #FFFFFF;
+}
+#ch-header #ch-title {
+  font-size: 1.7rem;
+	 padding-top: 1.7em;
+	
+}
+#ch-header #ch-message {
+  color: #ffffff;
+  box-shadow: 0 2px 2px 0 #0000001a;
+  padding: 1.5em;
+background: rgba(217, 217, 217, 0.13);
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  max-width: 70%;
+  margin: 1em auto;
+	font-family: 'century gothic';
+font-style: normal;
+font-weight: 100;
+font-size: 10px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 0.15em;
+}
+#ch-active {
+  display: block;
+}
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+#ch-active .progress {
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #000000;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#ch-active .progress .progress-bar-stripes {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #9c9c9c;
+  text-align: center;
+  background-color: #9c9c9c;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+#ch-active .progress .progress-bar-pulse {
+  display: block;
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  height: 100%;
+  background-image: linear-gradient(90deg, #9c9c9c 0%, #f7f9fa 17%, #4d4c4c 34%, #9c9c9c 51%, #9c9c9c 68%, #f7f9fa 85%, #4d4c4c 100%);
+  background-size: 300% 100%;
+  background-repeat: repeat-x;
+  -webkit-animation: progress-animation 3s linear infinite;
+  -o-animation: progress-animation 3s linear infinite;
+  animation: progress-animation 3s linear infinite;
+	border-radius: 15px;
+}
+@-webkit-keyframes progress-animation {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+@keyframes progress-animation {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
+#ch-active .progress .progress-bar-stripes {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+}
+#ch-active .progress .progress-bar-stripes {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+#ch-active .progress-bar-success {
+  background-color: #206D9C;
+}
+.progress-striped #ch-active .progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#ch-active .progress-bar-info {
+  background-color: #5bc0de;
+}
+.progress-striped #ch-active .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#ch-active .progress-bar-warning {
+  background-color: #f0ad4e;
+}
+.progress-striped #ch-active .progress-bar-warning {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#ch-active .progress-bar-danger {
+  background-color: #d9534f;
+}
+.progress-striped #ch-active .progress-bar-danger {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#ch-active .progress {
+  margin: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#ch-active #ch-estimated-wait {
+  display: block;
+	font-style: normal;
+font-weight: 100;
+font-size: 10px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 0.5em;
+}
+#ch-active #ch-estimated-wait #ch-estimated-placeholder img {
+  vertical-align: middle;
+}
+#ch-active #ch-estimated-wait .ch-show {
+  display: inline-block;
+}
+#ch-active #ch-estimated-wait .ch-hide {
+  display: none;
+}
+#ch-active #ch-sessions-expire,
+#ch-active #ch-sessions-no-expire {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+#ch-active .ch-hide {
+  display: none;
+}
+#ch-stock.ch-hide {
+  display: none;
+}
+#ch-stock.ch-show {
+  display: block;
+}
+#ch-stock {
+  width: auto;
+  perspective: 10em;
+}
+#ch-stock-value {
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
+  padding: 0.3em 0.4em 0.2em;
+  border-radius: 0.2em;
+  border: 1px solid #206D9C;
+  background: #206D9C;
+  color: #fff;
+  font-weight: 600;
+}
+#ch-stock-available.ch-show,
+#ch-stock-unavailable.ch-show {
+  display: block;
+}
+#ch-stock-available.ch-hide,
+#ch-stock-unavailable.ch-hide {
+  display: none;
+}
+#ch-captcha-container {
+  display: none;
+  text-align: center;
+}
+#ch-captcha {
+  display: none;
+  text-align: center;
+}
+#ch-captcha-container {
+  display: none;
+  text-align: center;
+}
+#ch-captcha div {
+  margin: 0 auto;
+}
+#ch-blocked {
+  display: none;
+}
+#ch-room-full {
+  display: none;
+}
+#ch-prelude {
+  display: none;
+}
+#ch-priority * {
+  box-sizing: border-box;
+	
+}
+#ch-priority {
+  display: block;
+  min-width: 200px;
+  width: 80%;
+  margin: 0 auto;
+	
+}
+#ch-priority .ch-priority-group {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  display: -ms-flexbox;
+	
+}
+#ch-priority .ch-priority-group-add {
+  margin-bottom: 1.5em;
+}
+#ch-priority .ch-priority-group-add-field {
+  width: 240px;
+  height: 16px;
+}
+#ch-priority .ch-priority-group-add-field:not(:first-child) {
+  border-left: 0;
+}
+#ch-priority .ch-priority-input {
+border: 2px solid #FFFFFF;
+  border-right: 0;
+  padding: 7px;
+  width: 100%;
+  flex: 1 0 80%;
+background: none;
+
+}
+#ch-priority .ch-priority-group-add-item {
+  font: inherit;
+  font-weight: normal;
+  border: 1px solid rgba(147, 128, 108, 0.25);
+  padding: 0;
+  width: 32px;
+  height: 32px;
+}
+#ch-priority .ch-priority-group-add-field:first-child,
+#ch-priority .ch-priority-group-add-item:first-child {
+  border-radius: 2px 0 0 2px;
+}
+#ch-priority .ch-priority-group-add-field:last-child,
+#ch-priority .ch-priority-group-add-item:last-child {
+  border-radius: 0 2px 2px 0;
+}
+#ch-priority .input-group-btn {
+  font: inherit;
+  font-weight: normal;
+  padding: 0;
+  width: auto;
+  flex: 0 1 auto;
+}
+#ch-priority .input-group-btn button {
+  border: 1px solid rgba(147, 128, 108, 0.25);
+  width: auto;
+  height: 34px;
+  line-height: 0;
+  position: relative;
+  border-radius: 0 2px 2px 0;
+}
+#ch-priority .input-group-btn button:hover {
+  color: #fff;
+  background-color: #2d2d2d;
+  cursor: pointer;
+}
+#ch-priority .ch-icon {
+  width: 32px;
+  height: 32px;
+  line-height: 0;
+  position: relative;
+  margin-left: 10px;
+  flex: 1 0 auto;
+}
+#ch-priority .ch-icon.ch-priority-group-add-item {
+  border: none;
+}
+#ch-priority .ch-icon svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-top: -12px;
+  margin-left: -12px;
+}
+#ch-priority .ch-icon.ch-hide {
+  display: none;
+}
+#ch-priority #ch-priority-error .ch-show,
+#ch-priority #ch-priority-success .ch-show {
+  display: table-cell;
+}
+#ch-priority #ch-priority-error {
+  color: #CD000B;
+}
+#ch-priority #ch-priority-success {
+  color: green;
+}
+@media screen and (max-width: 400px) {
+  #ch-priority .ch-priority-group {
+    flex-direction: column;
+  }
+  #ch-priority .ch-priority-input {
+    text-align: center;
+    border-right: 1px solid rgba(147, 128, 108, 0.25);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    -webkit-appearance: none;
+	
+  }
+  #ch-priority .input-group-btn button {
+    width: 100%;
+    border-top: none;
+    border-radius: 0 0px 6px 6px;
+  }
+  #ch-priority #ch-priority-success {
+    width: 100%;
+    text-align: center;
+  }
+  #ch-priority .ch-icon {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+#ch-footer {
+  display: block;
+  margin-top: 5em;
+}
+#ch-footer a img {
+  width: 150px;
+}
+#ch-token-copy.ch-show {
+  display: block;
+}
+.ch-token {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+#ch-token-copy {
+  border: none;
+  background-color: transparent;
+  color: #727272;
+  width: 15px;
+  height: 16px;
+  margin-left: 0.2em;
+}
+#ch-token-copy .checkmark {
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+#ch-token-copy.ch-token-clicked .checkmark {
+  display: block;
+  opacity: 1;
+}
+#ch-token {
+  color: orange;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 90%;
+}
+#ch-token:hover {
+  color: orange;
+  background-color: #787876;
+  cursor: pointer;
+}
+
+#pleasekeep {
+	
+position: absolute;
+width: 504px;
+height: 68px;
+left: 130px;
+
+	
+	font-family: 'century gothic';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 17px;
+text-align: center;
+letter-spacing: 0.07em;
+
+color: #FFFFFF;
+
+
+}
+
+#skipline {
+position: absolute;
+width: 692px;
+height: 28px;
+left: 787px;
+top: 859px;
+
+
+}
+
+
+
+#welcome {
+	
+position: relative;
+
+height: 50px;
+top: 5px;
+
+	
+	font-family: 'century gothic';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.08em;
+
+color: #FFFFFF;
+
+
+}
+
+
+#globeicon {
+/* bi:globe */
+
+
+position: absolute;
+width: 19px;
+height: 19px;
+left: 300px;
+top: 740px;
+}
+
+
+#xicon {
+/* icon-park-outline:big-x */
+position: absolute;
+width: 21px;
+height: 21px;
+left: 370px;
+top: 739px;
+}
+
+#atomicon {
+/* file-icons:jsx-atom */
+position: absolute;
+width: 21px;
+height: 21px;
+left: 440px;
+top: 739px;
+}
+
+
+#roman {
+	/* III Â· IX Â· MMXXIII */
+
+position: absolute;
+width: 692px;
+height: 23px;
+left: 38px;
+top: 772px;
+
+font-family: 'century gothic';
+font-style: normal;
+font-weight: 1000;
+font-size: 10px;
+line-height: 13px;
+text-align: center;
+letter-spacing: 0.705em;
+
+color: #FFFFFF;
+}
+
+
+#mission {
+	/* III Â· IX Â· MMXXIII */
+
+position: absolute;
+width: 692px;
+height: 23px;
+left: 38px;
+top: 810px;
+
+font-family: 'century gothic';
+font-style: normal;
+font-weight: 500;
+font-size: 7px;
+line-height: 13px;
+text-align: center;
+letter-spacing: 0.305em;
+
+color: #FFFFFF;
+}
