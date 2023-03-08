@@ -488,12 +488,12 @@ letter-spacing: 0.40em;
 
 color: #FFFFFF;
 }
-#ch-header #ch-title {
+#ch-header #ch-titlem {
   font-size: 1.7rem;
 	 padding-top: 1.7em;
 	
 }
-#ch-header #ch-message {
+#ch-header #ch-messagem {
   color: #ffffff;
   box-shadow: 0 2px 2px 0 #0000001a;
   padding: 1.5em;
