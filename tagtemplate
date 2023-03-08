@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>CrowdHandler Waiting Room</title>
+      <link rel="stylesheet" href="https://existentialthread.github.io/start/tagdrop.css" crossorigin="anonymous">
+      <meta name="robots" content="noindex" />
+   </head>
+	
+	
+   <body class="ch-loading">
+	   
+	   
+      <div class="ch-container">
+		  
+         <section  id="ch-logo">
+			 
+            <img src="C:\Users\Matthew\Desktop\Standard Template\Standard Template\Tag_Logo_Official_noText_KNOCKOUT-withBlackBehind.svg" alt="TAG GRADING">
+         </section>
+		
+         <section class="ch-section" id="ch-header">
+            <h2 id="ch-title">TRUST IN TRANSPARENCY</h2>
+			 
+			 
+			 
+			 <div id="welcome">Welcome to the very first official TAG Grading Drop!</div>
+			 
+			 
+			 <p id="ch-message">
+			 
+			
+			 
+5 CARD GRADING PACKAGES @ $14 / CARD<br>
+
+MAX PER CUSTOMER = 2 PACKAGES = 10 GRADED CARDS
+			 
+			 
+			 
+			 </p>
+			 
+			 
+			 
+			 
+			 
+			 
+<!--  <p id="ch-message" class="alert alert-info" role="alert">Our website is very busy at the moment.</p> -->
+         </section>
+		  
+         <section class="ch-section" id="ch-captcha"> 
+            <p id="ch-captcha-message">Please complete the captcha to proceed</p>
+            <div id="ch-captcha-form"></div>
+         </section>
+		  
+         <section class="ch-section" id="ch-blocked">
+            <p class="alert alert-danger" role="alert">You have been blocked due to suspicious activity.</p>
+         </section>
+		  
+         <section class="ch-section" id="ch-room-full">
+            <p class="lead">We're sorry, the waiting room is full. We will let you in if a position becomes available.</p>
+         </section>
+		  
+         <section class="ch-section" id="ch-prelude">
+            <div id="ch-sooner">
+               <p class="lead">This waiting room opens <br><strong id="ch-countdown">soon</strong></p>
+            </div>
+            <div id="ch-later">
+               <p class="lead">This waiting room opens on <br><strong id="ch-datetime">checking date</strong></p>
+            </div>
+			 
+            <small>There is no need to refresh this page; you will automatically receive a random queue position when the room opens.
+            Users who arrive later will join the back of the queue.</small>
+         </section>
+
+         <section class="ch-section" id="ch-active">
+			 <h1>YOUR POSITION IN LINE:</h1>
+			 <h5>
+			 <strong id="ch-count">50</strong></h5>
+			 
+            <div class="progress">
+               <div id="ch-progress" class="progress-bar progress-bar-pulse" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <div id="ch-estimated-wait" class="ch-show">
+               ESTIMATED WAIT TIME:
+               <span id="ch-estimated-placeholder">
+                  <img src="C:\Users\Matthew\Desktop\Standard Template\Standard Template\icons8-spinning-circles.gif" width="14px"/>
+               </span>
+               <span id="ch-estimated-hours" class="ch-hide"><strong class="ch-number"></strong> hours</span> 
+               <span id="ch-estimated-minutes" class="ch-hide"><strong class="ch-number"></strong> minutes</span>
+            </div>
+
+            <p id="ch-sessions-expire" class="ch-hide">You will move to the front of the queue automatically. There is no need to refresh this page but please keep this window open, and if you are using a mobile device, do not allow it to go to sleep for too long</p>
+            <p id="ch-sessions-no-expire" class="ch-hide">You will move to the front of the queue automatically. There is no need to refresh this page. Once you reach the front of the line you will have <span id="ch-sessions-expiry">15</span> minutes to start your transaction.</p>
+			 
+			 <br><br>
+			 <div id="pleasekeep">
+			 Your place in line will automatically update as customers in front of you place their orders. Please keep your browser open and remember not to refresh or exit this page as you will lose your current place in line.
+			 </div>
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+         </section>
+
+		  
+         <section class="ch-section ch-hide" id="ch-stock">
+            <p id="ch-stock-available" class="">Availability <span id="ch-stock-value">X</span> items</p>
+            <p id="ch-stock-unavailable" class="ch-hide">
+               We’re all sold out, sorry please come again next time!
+            </p>
+         </section>
+
+       
+		  
+		  
+		  
+		 
+
+<img id="globeicon" src="globeicon.svg">
+<img id="xicon" src="xicon.svg">
+<img id="atomicon" src="atomicon.svg">
+
+
+		  
+		  <p id="roman">III · IX · MMXXIII</p>
+		  
+		 <p id="mission">  TO USE INNOVATION, TO APPLY TECHNOLOGIES, AND TO CREATE FOR EACH COLLECTOR: <BR> TRANSPARENCY, ACCURACY, AND CONSISTENCY FOR EVERY CARD GRADED.</p>
+		  
+		  
+      </div>
+      <script src="https://wait.crowdhandler.com/js/latest/main.js?id=ch-public-key"></script>
+  
+
+	  
+	   
+	  
+	   
+
+	
+        
+          
+			 
+                  
+        
+
+	   
+	   
+	   
+	   
+    </body>
+   </html>
