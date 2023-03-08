@@ -487,6 +487,22 @@ letter-spacing: 0.40em;
 
 color: #FFFFFF;
 }
+
+
+#m-title h2 {
+
+font-family: 'century gothic';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.40em;
+
+color: #FFFFFF;
+}
+
+
 #ch-header #ch-title {
   font-size: 1.7rem;
 	 padding-top: 1.7em;
