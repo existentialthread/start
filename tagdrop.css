@@ -5,7 +5,7 @@
    ========================================================================== */
 
 /**
- * v.18
+ * v.19
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
@@ -502,7 +502,7 @@ box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
   margin: 1em auto;
  font-family: "Montserrat", sans-serif;
 font-style: normal;
-font-weight: 100;
+font-weight: 200;
 font-size: 10px;
 line-height: 18px;
 text-align: center;
@@ -1045,7 +1045,7 @@ top: 772px;
 
  font-family: "Montserrat", sans-serif;
 font-style: normal;
-font-weight: 1000;
+font-weight: 500;
 font-size: 10px;
 line-height: 13px;
 text-align: center;
