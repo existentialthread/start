@@ -5,7 +5,7 @@
    ========================================================================== */
 
 /**
- * v.17
+ * v.18
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
@@ -771,7 +771,7 @@ border: 2px solid #FFFFFF;
   width: 100%;
   flex: 1 0 80%;
 background: none;
-	font-family: 'ROBOTO';
+	font-family: "Montserrat", sans-serif;
 font-style: normal;
 	 color: #fff;
 font-weight: 400;
@@ -787,7 +787,7 @@ letter-spacing: .1em;
   padding: 0;
   width: 32px;
   height: 32px;
-		font-family: 'ROBOTO';
+	font-family: "Montserrat", sans-serif;
 font-style: normal;
 	 color: #fff;
 font-weight: 400;
@@ -875,7 +875,7 @@ letter-spacing: .05em;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     -webkit-appearance: none;
-	  	font-family: 'ROBOTO';
+	  font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 13px;
