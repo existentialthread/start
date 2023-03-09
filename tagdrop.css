@@ -5,7 +5,7 @@
    ========================================================================== */
 
 /**
- * v.16
+ * v.17
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
@@ -400,7 +400,7 @@ body {
   padding: 0;
   background-color: #000000;
 	
-font-family: 'Century Gothic';
+font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
@@ -477,7 +477,7 @@ animation: borderglowe 1s infinite alternate;
 #ch-header h1,
 #ch-header h2 {
 
-font-family: 'century gothic';
+font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
@@ -501,7 +501,7 @@ box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
   max-width: 70%;
   margin: 1em auto;
-	font-family: 'century gothic';
+ font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 100;
 font-size: 10px;
@@ -654,6 +654,7 @@ letter-spacing: 0.15em;
 #ch-active #ch-estimated-wait {
   display: block;
 	font-style: normal;
+	 font-family: "Montserrat", sans-serif;
 font-weight: 100;
 font-size: 10px;
 line-height: 18px;
@@ -737,6 +738,7 @@ letter-spacing: 0.5em;
 #ch-priority {
   display: block;
   min-width: 200px;
+	 font-family: "Montserrat", sans-serif;
   width: 100%;
   margin: 0 auto;
 		position: absolute;
@@ -816,7 +818,7 @@ letter-spacing: .1em;
   line-height: 0;
   position: relative;
   border-radius: 0 2px 2px 0;
-	font-family: 'century gothic';
+	 font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -955,7 +957,7 @@ height: 68px;
 left: 130px;
 
 	
-	font-family: 'century gothic';
+	 font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 12px;
@@ -988,7 +990,7 @@ height: 50px;
 top: 5px;
 
 	
-	font-family: 'century gothic';
+	 font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 13px;
@@ -1042,7 +1044,7 @@ height: 23px;
 left: 38px;
 top: 772px;
 
-font-family: 'century gothic';
+ font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 1000;
 font-size: 10px;
@@ -1063,7 +1065,7 @@ height: 23px;
 left: 38px;
 top: 810px;
 
-font-family: 'century gothic';
+ font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 7px;
