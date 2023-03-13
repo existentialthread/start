@@ -159,16 +159,45 @@ MAX PER CUSTOMER = 4 PACKAGES = 20 GRADED CARDS
 
 	  
 	   
+         <section class="ch-section ch-hide" id="ch-stock">
+            <p id="ch-stock-available" class="">Availability <span id="ch-stock-value">X</span> items</p>
+            <p id="ch-stock-unavailable" class="ch-hide">
+               We’re all sold out, sorry please come again next time!
+            </p>
+         </section>
 
+         <section class="ch-section" id="ch-priority">
+            <h3>Got a priority code?</h3>
+            <form>
+               <div class="ch-priority-group">
+                  <input id="ch-priority-input" type="text" class="ch-priority-input" placeholder="Enter Code" aria-label="Enter Code">
+                  <span class="input-group-btn">
+                     <button  id="ch-priority-btn-action" class="btn btn-default" type="submit">
+                        <span class="ch-show">
+                           Apply
+                        </span>
+                     </button>
+                  </span>
+                  <span id="ch-priority-success" class="ch-icon ch-hide ch-priority-group-add-item">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  </span>
+                  <span id="ch-priority-error" class="ch-icon ch-hide ch-priority-group-add-item">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                  </span>
+                </div>
+            </form>
+
+         </section>
                   
+	
+	
+	
+	
+	
 
 
     <section class="ch-section" id="ch-footer">
-            <p>
-               <small>POWERED BY</small><br>
-               <a target="_blank" href="http://www.crowdhandler.com/?utm_source=CH_queue&utm_medium=referral"><img src="https://wait.crowdhandler.com/img/crowdhandler-logo--strip.svg" alt="CrowdHandler - Virtual Waiting Room Service"></a>
-            </p>
-            <p><small>Last check in <span id="ch-checkin"></span></small></p>
+      
             
             <p class="ch-token">
                <small>ID: <code id="ch-token">tok_4ME******gXW</code></small>
