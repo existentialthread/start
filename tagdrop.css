@@ -491,7 +491,7 @@ color: #FFFFFF;
 	 padding-top: 1.7em;
 	
 }
-#ch-header #ch-messagem {
+#ch-header #ch-message {
   color: #ffffff;
   box-shadow: 0 2px 2px 0 #0000001a;
   padding: 1.5em;
@@ -508,6 +508,10 @@ line-height: 18px;
 text-align: center;
 letter-spacing: 0.15em;
 }
+
+
+
+
 #ch-active {
   display: block;
 }
