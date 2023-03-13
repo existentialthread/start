@@ -5,7 +5,7 @@
    ========================================================================== */
 
 /**
- * v.20
+ * v.22
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
@@ -491,7 +491,7 @@ color: #FFFFFF;
 	 padding-top: 1.7em;
 	
 }
-#ch-header #ch-messagem {
+#ch-messagem {
   color: #ffffff;
   box-shadow: 0 2px 2px 0 #0000001a;
   padding: 1.5em;
