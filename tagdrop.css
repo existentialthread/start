@@ -5,7 +5,7 @@
    ========================================================================== */
 
 /**
- * v.22
+ * v.23
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
@@ -48,7 +48,7 @@ h1 {
 	position: absolute;
 
 left: 294px;
-top: 332px;
+top: 331px;
 }
 
 h3 {
