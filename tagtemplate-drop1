@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>TAG Grading Drop Waiting Room</title>
+      <link rel="stylesheet" href="https://existentialthread.github.io/start/tagdrop.css" crossorigin="anonymous">
+      <meta name="robots" content="noindex" />
+	   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+	   
+	   
+	   
+   </head>
+	
+	
+   <body class="ch-loading">
+	   
+	   
+	   	   <div class="second-container">
+	   
+ <video width="600" autoplay loop muted>
+  <source src="https://cdn.shopify.com/videos/c/o/v/c1e57c6557a9440c9cee5cf51c6df75c.mp4" type="video/mp4" />
+  <source src="https://cdn.shopify.com/videos/c/o/v/c1e57c6557a9440c9cee5cf51c6df75c.ogg" type="video/ogg" />
+  Your browser does not support the video tag.
+</video>
+	
+        
+	</div>
+			 
+	   
+	   
+	   
+      <div class="ch-container">
+		  
+         <section  id="ch-logo">
+			 
+            <img src="https://existentialthread.github.io/start/Tag_Logo_Official_noText_KNOCKOUT-withBlackBehind.svg" alt="TAG GRADING">
+         </section>
+		
+         <section class="ch-section" id="ch-header">
+            <h2 id="ch-titlem">TRUST IN TRANSPARENCY</h2>
+			 
+			 
+			 
+			 <div id="welcome">Welcome to the official TAG Grading Drop. </div>
+		 
+		
+        
+
+			 
+			 
+			 <p id="ch-messagem">
+			 
+			
+			 
+5 CARD GRADING PACKAGES @ $14 / CARD<br>
+
+MAX 2 PKGS PER CUSTOMER = 10 GRADED CARDS
+			 
+			 
+			 
+			 </p>
+		 
+		 <p id="ch-message" class="alert alert-info" role="alert">Our website is very busy at the moment.</p>
+
+    </section>
+	      
+	      
+		  
+         <section class="ch-section" id="ch-captcha"> 
+            <p id="ch-captcha-message">Please complete the captcha to proceed</p>
+            <div id="ch-captcha-form"></div>
+         </section>
+		  
+         <section class="ch-section" id="ch-blocked">
+            <p class="alert alert-danger" role="alert">You have been blocked due to suspicious activity.</p>
+         </section>
+		  
+         <section class="ch-section" id="ch-room-full">
+            <p class="lead">We're sorry, the waiting room is full. We will let you in if a position becomes available.</p>
+         </section>
+		  
+         <section class="ch-section" id="ch-prelude">
+            <div id="ch-sooner">
+               <p class="lead"><h3>WAITING ROOM OPENS <br><strong id="ch-countdown">SOON</strong></p>
+            </div>
+            <div id="ch-later">
+               <p class="lead">WAITING ROOM OPENS<br><strong id="ch-datetime">CHECKING DATE</strong></p></h3>
+            </div>
+			
+       
+         </section>
+
+         <section class="ch-section" id="ch-active">
+			 <h1>YOUR POSITION IN LINE:</h1>
+			 <h5>
+			 <strong id="ch-count">50</strong></h5>
+			 
+            <div class="progress">
+               <div id="ch-progress" class="progress-bar progress-bar-pulse" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <div id="ch-estimated-wait" class="ch-show">
+               ESTIMATED WAIT TIME:
+               <span id="ch-estimated-placeholder">
+                  <img src="https://existentialthread.github.io/start/spincircle.gif" width="14px"/>
+               </span>
+               <span id="ch-estimated-hours" class="ch-hide"><strong class="ch-number"></strong> HOURS</span> 
+               <span id="ch-estimated-minutes" class="ch-hide"><strong class="ch-number"></strong> MINUTES</span>
+            </div>
+
+          
+			 
+			 <br><br>
+			 <div id="pleasekeep">
+			 Your place in line will automatically update as customers in front of you place their orders. Please keep your browser open and remember not to refresh or exit this page as you will lose your current place in line.
+			 </div>
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+         </section>
+
+		  
+         <section class="ch-section ch-hide" id="ch-stock">
+            <p id="ch-stock-available" class="">Availability <span id="ch-stock-value">X</span> items</p>
+            <p id="ch-stock-unavailable" class="ch-hide">
+               We’re all sold out, sorry please come again next time!
+            </p>
+         </section>
+
+       
+		  
+		  
+		  
+		 
+
+<img id="globeicon" src="https://existentialthread.github.io/start/globeicon.svg">
+<img id="xicon" src="https://existentialthread.github.io/start/xicon.svg">
+<img id="atomicon" src="https://existentialthread.github.io/start/atomicon.svg">
+
+
+		  
+		  <p id="roman">III · IX · MMXXIII</p>
+		  
+		 <p id="mission">  TO USE INNOVATION, TO APPLY TECHNOLOGIES, AND TO CREATE FOR EACH COLLECTOR: <br> TRANSPARENCY, ACCURACY, AND CONSISTENCY FOR EVERY CARD GRADED.</p>
+		  
+		  
+      </div>
+      <script src="https://wait.crowdhandler.com/js/latest/main.js?id=ch-public-key"></script>
+  
+
+	  
+	   
+
+                  
+
+
+         <section class="ch-section" id="ch-priority">
+         
+            <form>
+               <div class="ch-priority-group">
+                  <input id="ch-priority-input" type="text" class="ch-priority-input" placeholder="PRIORITY CODE" aria-label="Enter Code">
+                  <span class="input-group-btn">
+                     <button  id="ch-priority-btn-action" class="btn btn-default" type="submit">
+                        <span class="ch-show">
+                           Submit
+                        </span>
+                     </button>
+                  </span>
+                  <span id="ch-priority-success" class="ch-icon ch-hide ch-priority-group-add-item">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  </span>
+                  <span id="ch-priority-error" class="ch-icon ch-hide ch-priority-group-add-item">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                  </span>
+                </div>
+            </form>
+
+         </section>
+                  
+	
+	
+	
+	
+	
+
+
+    <section class="ch-section" id="ch-footer">
+      
+            
+            <p class="ch-token">
+               <small>ID: <code id="ch-token">tok_4ME******gXW</code></small>
+               <svg id="ch-token-copy" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <text class="checkmark" x="8" y="18" >✓</text>
+                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+               </svg>
+            </p>
+
+                  
+         </section>
+      </div>
+      <script src="https://wait.crowdhandler.com/js/latest/main.js?id=ch-public-key"></script>
+
+
+
+
+
+
+        
+
+	   
+	   
+	   
+	   
+    </body>
+   </html>
