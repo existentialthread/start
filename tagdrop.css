@@ -1,1278 +1,366 @@
-
-}/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
-/* Document
-   ========================================================================== */
-
-/**
- * v.26
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-
-html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
-
-/* Sections
-   ========================================================================== */
-
-/**
- * Remove the margin in all browsers.
- */
-
-body {
-  margin: 0;
-}
-
-/**
- * Render the `main` element consistently in IE.
- */
-
-main {
-  display: block;
-}
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-
-h6 {
-  font-size: 10pt;
-	 font-family: "Montserrat", sans-serif;
-  margin: auto;
-	color: #ffffff;
-	line-height: 10px;
-	margin: 20px;
-	padding-bottom: -100px;
-}
-
-h3 {
-  font-size: 30pt;
-	 font-family: "Montserrat", sans-serif;
-	color: #ffffff;
-	line-height: 130px;
-
-}
-
-h5 {
-  font-size: 100pt;
-	 font-family: "Montserrat", sans-serif;
-font-weight: 600;
-  margin: 0.5em 0em .62em 0em; /* TOP RIGHT BOTTOM LEFT - CLOCKWISE */
-	color: #ffffff;
-	line-height: 0px;
-}
-
-
-h4 {
-  font-size: 7pt;
-	 font-family: "Montserrat", sans-serif;
-	font-style: normal;
-font-weight: 400;
-  margin: 0.67em 0;
-	color: #ffffff;
-	line-height: 8px;
-	letter-spacing: .6em;
-}
-
-/* Grouping content
-   ========================================================================== */
-
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-
-hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
-}
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-
-pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
-}
-
-/* Text-level semantics
-   ========================================================================== */
-
-/**
- * Remove the gray background on active links in IE 10.
- */
-
-a {
-  background-color: transparent;
-}
-
-/**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-
-abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
-}
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-
-b,
-strong {
-  font-weight: bolder;
-}
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-
-code,
-kbd,
-samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
-}
-
-/**
- * Add the correct font size in all browsers.
- */
-
-small {
-  font-size: 70%;
-  color: #727272;
-}
-
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
-/* Embedded content
-   ========================================================================== */
-
-/**
- * Remove the border on images inside links in IE 10.
- */
-
-img {
-  border-style: none;
-}
-
-/* Forms
-   ========================================================================== */
-
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
-}
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-
-button,
-input { /* 1 */
-  overflow: visible;
-}
-
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-
-button,
-select { /* 1 */
-  text-transform: none;
-}
-
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
-
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
-/**
- * Remove the inner border and padding in Firefox.
- */
-
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-/**
- * Restore the focus styles unset by the previous rule.
- */
-
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
-/**
- * Correct the padding in Firefox.
- */
-
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
-
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
-
-legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
-}
-
-/**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-
-progress {
-  vertical-align: baseline;
-}
-
-/**
- * Remove the default vertical scrollbar in IE 10+.
- */
-
-textarea {
-  overflow: auto;
-}
-
-/**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
- */
-
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
-}
-
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-
-[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
-}
-
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
-
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
-}
-
-/* Interactive
-   ========================================================================== */
-
-/*
- * Add the correct display in Edge, IE 10+, and Firefox.
- */
-
-details {
-  display: block;
-}
-
-/*
- * Add the correct display in all browsers.
- */
-
-summary {
-  display: list-item;
-}
-
-/* Misc
-   ========================================================================== */
-
-/**
- * Add the correct display in IE 10+.
- */
-
-template {
-  display: none;
-}
-
-/**
- * Add the correct display in IE 10.
- */
-
-[hidden] {
-  display: none;
-}
-
-html,
-body {
-  font-size: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-body {
-  font-size: 100%;
-	color: #ffffff;
-  margin: 0;
-  padding: 0;
-  background-color: #000000;
+<!DOCTYPE html>
+<html lang="en">
 	
-font-family: "Montserrat", sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 18px;
-text-align: center;
-letter-spacing: 0.04em;
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>TAG Grading Drop Waiting Room</title>
+    <!--  <link rel="stylesheet" href="https://existentialthread.github.io/start/tagdrop.css" crossorigin="anonymous"> !-->
+	
+	<link href="tagdrop.css" rel="stylesheet" type="text/css" />
+      <meta name="robots" content="noindex" />
+	   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+	   
+	   
+	   
+   </head>
+	
+	
+   <body class="ch-loading">
+	   
+	   
+
+	   
+ 
+	
+        
+
+
+<!--
+<video width="100" autoplay loop muted>
+  <source src="https://cdn.shopify.com/videos/c/o/v/c1e57c6557a9440c9cee5cf51c6df75c.mp4" type="video/mp4" />
+  <source src="https://cdn.shopify.com/videos/c/o/v/c1e57c6557a9440c9cee5cf51c6df75c.ogg" type="video/ogg" />
+  Your browser does not support the video tag.
+</video>
+!-->
+
+
+
+
+ 
+	   
+	   
+	   
+      <div class="ch-container">
+		  
+   <div class="manager-textbox">
+			   <img src="https://existentialthread.github.io/start/Tag_Logo_Official_noText_KNOCKOUT-withBlackBehind.svg" class="manager-portrait" style="height:80px">
+        
+   
+        </div>       
+  
+		
+         <section class="ch-section" id="ch-header">
+            <h2 id="ch-titlem">TRUST IN TRANSPARENCY</h2>
+	
+	<hr style="height:2px; background-color:#ffffff; animation: borderglowe 1s infinite alternate;" width="74%">
+
+
+	<center>
+				 
+				 	  <!-- ROMAN NUMERAL DATE !-->	 
+		  
+		  <p id="roman">III · XVI · MMXXIII</p>
+				 
+				 
+				 
+
+
+
+
+		
+		  
+		  
+		  
+		  
+		  
+		  			  <!-- MISSION STATEMENT !-->	 
+		  
+		  
+		 <p id="mission">  TO USE INNOVATION, TO APPLY TECHNOLOGIES, AND TO CREATE FOR EACH COLLECTOR: <br> TRANSPARENCY, ACCURACY, AND CONSISTENCY FOR EVERY CARD GRADED.</p>
+		  
+		  
+		  <br>
+		  
+		 
+
+		  
+		  
+				 <!-- WELCOME
+			 <div id="welcome">Welcome to the official TAG Grading Drop. 
+			 
+
+	
+			 </div> !-->
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 		
+			 
+			 	 <!-- YOUTUBE CLIP  !-->
+			 		 <iframe
+    width="500" height="280"
+    src="https://www.youtube.com/embed/WhCwL1LVS1M?autoplay=1&mute=1&enablejsapi=1"
+
+style="border: 0px solid #FFFFFF; animation: borderglowe 1s infinite alternate; margin-top: 10px; padding: 10px;">
+
+</iframe>
+			 
+	 
+	 
+	 
+	 
+	  <!-- BOX SECTION SAYS WHAT THE ITEMS ARE !-->	 	
+		 
+			 
+			 <p id="ch-messagem">
+			 
+			 
+CURRENT TAG DROP • 5 CARD GRADING PKG • $14 / CARD • 1 PKG PER PERSON
+			 
+			 
+			 
+			 </p>
+	 
+	 
+	 
+	 
+	 
+		</center>
+        
+
+
+
+
+
+		
+			 
+			 
+			 
+			 
+				 <!-- SECTION FOR RECAPTCHA / BLOCKING / WAITING ROOM FULL !-->	 
+		 
+		 
+		
+	      
+	      
+		  
+         <section class="ch-section" id="ch-captcha"> 
+            <p id="ch-captcha-message">Please complete the captcha to proceed</p>
+            <div id="ch-captcha-form"></div>
+         </section>
+		  
+         <section class="ch-section" id="ch-blocked">
+            <p class="alert alert-danger" role="alert">You have been blocked due to suspicious activity.</p>
+         </section>
+		  
+         <section class="ch-section" id="ch-room-full">
+            <p class="lead">We're sorry, the waiting room is full. We will let you in if a position becomes available.</p>
+         </section>
+		  
+         <section class="ch-section" id="ch-prelude">
+            <div id="ch-sooner">
+               <p class="lead"><h3>WAITING ROOM OPENS <br><strong id="ch-countdown">SOON</strong></p>
+            </div>
+            <div id="ch-later">
+               <p class="lead">WAITING ROOM OPENS<br><strong id="ch-datetime">CHECKING DATE</strong></p></h3>
+            </div>
+			
+         </section>
+		 
+		 
+	
+
+    </section>
+		 
+		 
+		 
+		 
+		 
+		 	<!-- CURRENT AVAILABILITY IN STOCK !-->
+			 <div class="ch-section" id="ch-header">
+			
+ <!-- <font class="currentstock">CURRENT AVAILABILITY</font> !--><center>
+<p id="ch-message" class="alert alert-info" role="alert">CURRENT AVAILABILITY: IN STOCK </p> </center>
+</div>
+
+
+
+
+		 <!-- NEXT SECTION / POSITION IN LINE !-->
+		 
+
+         <section class="ch-section" id="ch-active">
+		 
+		 
+		 
+		 
+
+			 <h6>YOUR POSITION IN LINE:</h6>
+			 <h5>
+			 <strong id="ch-count">50</strong></h5>
+			 
+			 
+			 
+			  <!-- ESTIMATED WAIT TIME / PROGRESS BAR !-->	 
+			 
+			 
+            <div class="progress">
+               <div id="ch-progress" class="progress-bar progress-bar-pulse" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <div id="ch-estimated-wait" class="ch-show">
+               ESTIMATED WAIT TIME:
+               <span id="ch-estimated-placeholder">
+                  <img src="https://existentialthread.github.io/start/spincircle.gif" width="14px"/>
+               </span>
+               <span id="ch-estimated-hours" class="ch-hide"><strong class="ch-number"></strong> HOURS</span> 
+               <span id="ch-estimated-minutes" class="ch-hide"><strong class="ch-number"></strong> MINUTES</span>
+            </div>
+
+          
+			 
+			 <br>
+			 
+			  
+			 
+			 
+			 
+			 			  <!-- NOTICE KEEP BROWSER OPEN 	!--> 
+			<center> <div class="ch-section" id="pleasekeep">
+			 Your place in line will automatically update as customers in front of you place their orders. Please keep your browser open and remember not to refresh or exit this page as you will lose your current place in line.
+			 </div>
+			 </center>
+			 
+		
+			 
+			 
+			 
+         </section>
+
+
+			  <!-- IF SHOWING STOCK !-->	 
+		  
+         <section class="ch-section ch-hide" id="ch-stock">
+            <p id="ch-stock-available" class="">Availability <span id="ch-stock-value">X</span> items</p>
+            <p id="ch-stock-unavailable" class="ch-hide">
+               We’re all sold out, sorry please come again next time!
+            </p>
+         </section>
+
+       
+	   
+	   
+	   
+	    <section class="ch-section" id="ch-active">
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+			  <!-- PRIORITY CODE / TOKEN !-->	 
+
+
+
+
+   <script src="https://wait.crowdhandler.com/js/latest/main.js?id=ch-public-key"></script>
+  
+
+	  
+	   <center>
+
+                  
+
+
+         <section class="ch-section" id="ch-priority">
+         
+            <form>
+               <div class="ch-priority-group">
+                  <input id="ch-priority-input" type="text" class="ch-priority-input" placeholder="PRIORITY CODE" aria-label="Enter Code">
+                  <span class="input-group-btn">
+                     <button  id="ch-priority-btn-action" class="btn btn-default" type="submit">
+                        <span class="ch-show">
+                           SUBMIT
+                        </span>
+                     </button>
+                  </span>
+                  <span id="ch-priority-success" class="ch-icon ch-hide ch-priority-group-add-item">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  </span>
+                  <span id="ch-priority-error" class="ch-icon ch-hide ch-priority-group-add-item">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                  </span>
+                </div>
+            </form>
+
+         </section>
+                  
+	
+	
+	
 	
 	
 
-	
-}
 
+    <section class="ch-section" id="ch-footer">
+      
+            
+            <p class="ch-token">
+               <small>ID: <code id="ch-token">tok_4ME******gXW</code></small>
+               <svg id="ch-token-copy" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <text class="checkmark" x="8" y="18" >✓</text>
+                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+               </svg>
+            </p>
 
+                  
+         </section>
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+		  
+		  			
+		  
+      </div>
 
-.ch-container {
-  max-width: 900px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
 
-		/* Rectangle 1 */
 
 
-box-sizing: border-box;
-margin-top: 75px;
-margin-bottom: 75px;
-width: 900px;
-height: 1200px;
-animation: borderglowe 1s infinite alternate;
-border: 5px solid #FFFFFF;
+    
 
-}
 
 
-.video-container {
-	  max-width: 600px;
-box-sizing: border-box;
-animation: borderglowe 1s infinite alternate;
-border: 3px solid #FFFFFF;
 
-}
 
-/* SECTION BLUE BORDERS */
 
-.ch-section {
-  text-align: center;
-  margin: 0.5em 0;
-  padding: 0.5em 0;
-	line-height: 20px;
-	border: 0px solid blue;
 
-}
-p.lead {
-  font-size: 5em;
-	line-height: 20pt;
-}
-.loading #ch-countdown,
-.loading #ch-position,
-.loading #ch-blocked,
-.loading #ch-full,
-.loading #ch-prelude,
-.loading #ch-sooner,
-.loading #ch-later,
-.loading #ch-active,
-.loading #ch-priority,
-.loading #ch-room-full {
-  display: none;
-}
 
-
-
-
-
-
-.youtube-container {
-    overflow: hidden;
-    width: 100%;
-    /* Keep it the right aspect-ratio */
-    aspect-ratio: 16/9;
-    /* No clicking/hover effects */
-    pointer-events: none;
-} 
-
-.youtube-container iframe {
-    /* Extend it beyond the viewport... */
-    width: 300%;
-    height: 100%;
-    /* ...and bring it back again */
-    margin-left: -100%;
-}
-
-
-
-
-
-// managers
-.manager-headline {
-    font-size: 24px;
-    color: $xcellent-blue;
-    text-align: center;
-	
-}
-
-.manager-textbox {
-    background-color: #f4f6f9;
-    box-shadow: 0 -3px 0 0 #303f9f;
-    position: relative;
-    margin-top: 60px;
-	
-}
-
-
-#manager  .teaser-header-what {
-    padding-left: 0px;
-}
-.manager-portrait {
- position: absolute;
- top: -103px;
- left: 50%;
- -webkit- transform: translateX(-50%);
- transform: translateX(-50%);
- animation: borderglowe 1s infinite alternate;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#ch-header h1,
-#ch-header h2 {
-
-font-family: "Montserrat", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-text-align: center;
-letter-spacing: 0.40em;
-padding-left: 10px;
-margin-bottom: 10px;
-color: #FFFFFF;
-}
-
-
-
-
-
-#ch-messagem {
-  display: block;
-  color: #ffffff;
-  box-shadow: 0 2px 2px 0 #0000001a;
-  padding: 1.7em;
-background: rgba(217, 217, 217, 0.13);
-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
-  border-radius: 2px;
-  max-width: 70%;
-  margin: 40px auto;
-  margin-bottom: 0px;
- font-family: "Montserrat", sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 10px;
-line-height: 18px;
-text-align: center;
-letter-spacing: 0.25em;
-
-}
-
-
-#ch-header {
-	padding-top: 0px;
-}
-	
-
-
-#ch-header #ch-message {
-  display: inline;
-  color: #ffffff;
-  max-width: 70%;
- font-family: "Montserrat", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 30px;
-text-align: center;
-letter-spacing: 0.15em;
-animation: glowefont 1s infinite alternate;
-border: solid 2px white;
-background-color: #131313;
-padding: 12px;
-
-
-}
-
-.currentstock {
-font-family: "Montserrat", sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 30px;
-text-align: center;
-letter-spacing: 0.2em;
-color: #FFFFFF; 
-}
-
-#ch-active {
-  display: block;
-}
-@-webkit-keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-@keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-
-
-@-webkit-keyframes borderglowe {
-  from {
-    box-shadow:0px 0px 10px #FFFFFF;
-  }
-  to {
-    box-shadow:0px 0px 20px #FFFFFF;
-  }
-}
-@keyframes borderglowe {
-  from {
-   box-shadow:0px 0px 10px #FFFFFF;
-  }
-  to {
-    box-shadow:0px 0px 20px #FFFFFF;
-  }
-}
-
-
-
-@-webkit-keyframes glowefont {
-  from {
-    box-shadow:0px 0px 5px #FFFFFF;
-  }
-  to {
-    box-shadow:0px 0px 15px #FFFFFF;
-  }
-}
-@keyframes glowefont {
-  from {
-   box-shadow:0px 0px 5px #FFFFFF;
-  }
-  to {
-    box-shadow:0px 0px 15px #FFFFFF;
-  }
-}
-
-
-
-
-@-webkit-keyframes glowedot {
-  from {
-    box-shadow:0px 0px 0px 1px #A9E99D;
-  }
-  to {
-    box-shadow:0px 0px 0px 1.5px #A9E99D;
-  }
-}
-@keyframes glowedot {
-  from {
-   box-shadow:0px 0px 0px 1px #A9E99D;
-  }
-  to {
-    box-shadow:0px 0px 0px 1.5px #A9E99D;
-  }
-}
-
-
-
-
-#ch-active .progress {
-  height: 20px;
-  margin-bottom: 20px;
-  overflow: hidden;
-  background-color: #ffffff;
-  border-radius: 2px;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-		border-radius: 15px;
-}
-#ch-active .progress .progress-bar-stripes {
-  float: left;
-  width: 0%;
-  height: 100%;
-  font-size: 12px;
-  line-height: 20px;
-  color: #9c9c9c;
-  text-align: center;
-  background-color: #9c9c9c;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transition: width 0.6s ease;
-  -o-transition: width 0.6s ease;
-  transition: width 0.6s ease;
-	
-}
-#ch-active .progress .progress-bar-pulse {
-  display: block;
-  -webkit-transition: width 0.6s ease;
-  -o-transition: width 0.6s ease;
-  transition: width 0.6s ease;
-  height: 100%;
-  background-image: linear-gradient(90deg, #9c9c9c 0%, #ececec 17%, #4d4c4c 34%, #9c9c9c 51%, #9c9c9c 68%, #ececec 85%, #4d4c4c 100%);
-  background-size: 300% 100%;
-  background-repeat: repeat-x;
-  -webkit-animation: progress-animation 3s linear infinite;
-  -o-animation: progress-animation 3s linear infinite;
-  animation: progress-animation 3s linear infinite;
-	border-radius: 15px;
-}
-@-webkit-keyframes progress-animation {
-  0% {
-    background-position: 100%;
-  }
-  100% {
-    background-position: 0;
-  }
-}
-@keyframes progress-animation {
-  0% {
-    background-position: 100%;
-  }
-  100% {
-    background-position: 0%;
-  }
-}
-#ch-active .progress .progress-bar-stripes {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-size: 40px 40px;
-}
-#ch-active .progress .progress-bar-stripes {
-  -webkit-animation: progress-bar-stripes 2s linear infinite;
-  -o-animation: progress-bar-stripes 2s linear infinite;
-  animation: progress-bar-stripes 2s linear infinite;
-}
-#ch-active .progress-bar-success {
-  background-color: #D9D9D9;
-}
-.progress-striped #ch-active .progress-bar-success {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-#ch-active .progress-bar-info {
-  background-color: #605E5E;
-}
-.progress-striped #ch-active .progress-bar-info {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-#ch-active .progress-bar-warning {
-  background-color: #f0ad4e;
-}
-.progress-striped #ch-active .progress-bar-warning {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-#ch-active .progress-bar-danger {
-  background-color: #d9534f;
-}
-.progress-striped #ch-active .progress-bar-danger {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-#ch-active .progress {
-  margin: 20px;
-	margin-left: 100px;
-	margin-right: 100px;
-}
-#ch-active #ch-estimated-wait {
-  display: block;
-	font-style: normal;
-	 font-family: "Montserrat", sans-serif;
-font-weight: 300;
-font-size: 10px;
-line-height: 18px;
-text-align: center;
-letter-spacing: 0.5em;
-}
-#ch-active #ch-estimated-wait #ch-estimated-placeholder img {
-  vertical-align: middle;
-}
-#ch-active #ch-estimated-wait .ch-show {
-  display: inline-block;
-}
-#ch-active #ch-estimated-wait .ch-hide {
-  display: none;
-}
-#ch-active #ch-sessions-expire,
-#ch-active #ch-sessions-no-expire {
-  font-size: 0.9rem;
-  line-height: 1.4;
-}
-#ch-active .ch-hide {
-  display: none;
-}
-#ch-stock.ch-hide {
-  display: none;
-}
-#ch-stock.ch-show {
-  display: block;
-}
-#ch-stock {
-  width: auto;
-  perspective: 10em;
-}
-#ch-stock-value {
-  font-family: 'Courier New', Courier, monospace;
-  display: inline-block;
-  padding: 0.3em 0.4em 0.2em;
-  border-radius: 0.2em;
-  border: 1px solid #206D9C;
-  background: #206D9C;
-  color: #fff;
-  font-weight: 600;
-}
-#ch-stock-available.ch-show,
-#ch-stock-unavailable.ch-show {
-  display: block;
-}
-#ch-stock-available.ch-hide,
-#ch-stock-unavailable.ch-hide {
-  display: none;
-}
-#ch-captcha-container {
-  display: none;
-  text-align: center;
-}
-#ch-captcha {
-  display: none;
-  text-align: center;
-}
-#ch-captcha-container {
-  display: none;
-  text-align: center;
-}
-#ch-captcha div {
-  margin: 0 auto;
-}
-#ch-blocked {
-  display: none;
-}
-#ch-room-full {
-  display: none;
-}
-#ch-prelude {
-  display: none;
-}
-#ch-priority * {
-  box-sizing: border-box;
-	
-	
-}
-#ch-priority {
-  display: block;
-  min-width: 200px;
-	 font-family: "Montserrat", sans-serif;
-  width: 100%;
-  margin-top: 0px;
-    margin-bottom: -20px;
-	width: 200px;
-		border: solid 0px #fff;
-	
-
-
-	
-}
-#ch-priority .ch-priority-group {
-  max-width: 400px;
-  margin: 0 auto;
-  display: flex;
-  display: -ms-flexbox;
-	
-}
-#ch-priority .ch-priority-group-add {
-  margin-bottom: 1.5em;
-}
-#ch-priority .ch-priority-group-add-field {
-  width: 240px;
-  height: 16px;
-}
-#ch-priority .ch-priority-group-add-field:not(:first-child) {
-  border-left: 0;
-}
-#ch-priority .ch-priority-input {
-border: 1px solid #424242;
-  border-right: 0;
-    border-radius: 2px 0px 0px 2px;
-  padding: 7px;
-  width: 100%;
-  flex: 1 0 80%;
-background: #1C1C1C;
-	font-family: "Montserrat", sans-serif;
-font-style: normal;
-	 color: #fff;
-font-weight: 400;
-font-size: 11px;
-text-align: LEFT;
-letter-spacing: .1em;
-
-}
-#ch-priority .ch-priority-group-add-item {
-  font: inherit;
-  font-weight: normal;
-  border: 1px solid rgba(147, 128, 108, 0.25);
-  padding: 0;
-  width: 32px;
-  height: 32px;
-	font-family: "Montserrat", sans-serif;
-font-style: normal;
-	 color: #fff;
-font-weight: 400;
-font-size: 13px;
-text-align: LEFT;
-letter-spacing: .1em;
-}
-#ch-priority .ch-priority-group-add-field:first-child,
-#ch-priority .ch-priority-group-add-item:first-child {
-  border-radius: 2px 0 0 2px;
-}
-#ch-priority .ch-priority-group-add-field:last-child,
-#ch-priority .ch-priority-group-add-item:last-child {
-  border-radius: 0 2px 2px 0;
-}
-#ch-priority .input-group-btn {
-  font: inherit;
-  font-weight: normal;
-  padding: 0;
-  width: auto;
-  flex: 0 1 auto;
-}
-#ch-priority .input-group-btn button {
-  border: 1px solid rgba(147, 128, 108, 0.25);
-  width: auto;
-  height: 34px;
-  line-height: 0;
-  position: relative;
-  border-radius: 0 2px 2px 0;
-	 font-family: "Montserrat", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 11px;
-text-align: center;
-letter-spacing: .05em;
-background: #fff;
-}
-#ch-priority .input-group-btn button:hover {
-  color: #fff;
-  background-color: #2d2d2d;
-  cursor: pointer;
-	
-}
-#ch-priority .ch-icon {
-  width: 32px;
-  height: 32px;
-  line-height: 0;
-  position: relative;
-  margin-left: 10px;
-  flex: 1 0 auto;
-}
-#ch-priority .ch-icon.ch-priority-group-add-item {
-  border: none;
-}
-#ch-priority .ch-icon svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 24px;
-  height: 24px;
-  margin-top: -12px;
-  margin-left: -12px;
-}
-#ch-priority .ch-icon.ch-hide {
-  display: none;
-}
-#ch-priority #ch-priority-error .ch-show,
-#ch-priority #ch-priority-success .ch-show {
-  display: table-cell;
-}
-#ch-priority #ch-priority-error {
-  color: #CD000B;
-}
-#ch-priority #ch-priority-success {
-  color: green;
-}
-@media screen and (max-width: 400px) {
-  #ch-priority .ch-priority-group {
-    flex-direction: column;
-  }
-  #ch-priority .ch-priority-input {
-    text-align: center;
-    border-right: 1px solid rgba(147, 128, 108, 0.25);
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    -webkit-appearance: none;
-	  font-family: "Montserrat", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-text-align: LEFT;
-letter-spacing: .1em;
-	   color: #fff;
-	
-  }
-  #ch-priority .input-group-btn button {
-    width: 100%;
-    border-top: none;
-    border-radius: 0 0px 6px 6px;
-  }
-  #ch-priority #ch-priority-success {
-    width: 100%;
-    text-align: center;
-  }
-  #ch-priority .ch-icon {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 10px;
-  }
-}
-#ch-footer {
-display: block;
-  min-width: 200px;
-  width: 100%;
-	width: 200px;
-		height: 25px;
-	border: solid 0px #fff;
-}
-#ch-footer a img {
-  width: 150px;
-}
-#ch-token-copy.ch-show {
-  display: block;
-}
-.ch-token {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1em;
-	width: 212px;
-}
-#ch-token-copy {
-  border: none;
-  background-color: transparent;
-  color: #727272;
-  width: 15px;
-  height: 16px;
-  margin-left: 0.2em;
-}
-#ch-token-copy .checkmark {
-  font-size: 12px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-   color: #727272;
-}
-#ch-token-copy.ch-token-clicked .checkmark {
-  display: block;
-  opacity: 1;
-   color: #727272;
-}
-#ch-token {
-  color: #727272;
-  border-radius: 4px;
-  padding: 2px 4px;
-
-}
-#ch-token:hover {
-  color: #FD6262;
-  background-color: #787876;
-  cursor: pointer;
-}
-
-#pleasekeep {
-	
-width: 670px;
-font-family: "Montserrat", sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 10px;
-line-height: 17px;
-text-align: center;
-letter-spacing: 0.07em;
-color: #FFFFFF;
-margin-top: 0px;
-margin-bottom: 20px;
-}
-
-#skipline {
-
-width: 692px;
-height: 28px;
-
-
-
-}
-
-
-
-#welcome {
-	
-
-width: 600px;
-
-top: 0px;
-margin-bottom: 30px;
-
-	
-	 font-family: "Montserrat", sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 17px;
-text-align: center;
-letter-spacing: 0.07em;
-
-color: #FFFFFF;
-
-
-}
-
-.welcome2 {
-	
-
-
-	 font-family: "Montserrat", sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 12px;
-line-height: 17px;
-text-align: center;
-letter-spacing: 0.07em;
-
-color: #FFFFFF;
-
-
-}
-
-
-
-#globeicon {
-/* bi:globe */
-
-padding-right: 50px;
-
-width: 19px;
-height: 19px;
-
-}
-
-
-#xicon {
-/* icon-park-outline:big-x */
-
-width: 21px;
-height: 21px;
-
-}
-
-#atomicon {
-/* file-icons:jsx-atom */
-padding-left: 50px;
-width: 21px;
-height: 21px;
-
-}
-
-
-#roman {
-	/* III · IX · MMXXIII */
-
-
-
-font-family: "Montserrat", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 10px;
-line-height: 20px;
-text-align: center;
-letter-spacing: 0.905em;
-color: #FFFFFF;
-padding-top: 10px;
-}
-
-
-#mission {
-	/* MISSION STATEMENT */
-
-
-
- font-family: "Montserrat", sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 7px;
-line-height: 13px;
-text-align: center;
-letter-spacing: 0.305em;
-
-color: #FFFFFF;
-
-}
-
-.second-container {
-  max-width: 777px;=
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  padding: 0 1em;
-	
-		/* Rectangle 2 */
-
-
-box-sizing: border-box;
-
-
-width: 800px;
-height: 900px;
-
-
-border: 1px solid #FFFFFF;
-}
-.second-section {
-  text-align: center;
-  margin: 0.5em 0;
-  padding: 0.5em 0;
-	line-height: 20px;
-	
-}
-@charset "utf-8";
-/* CSS Document */
-
-
-
-
-.dot {
-  height: 6px;
-  width: 6px;
-  background-color: #A9E99D;
-  border-radius: 50%;
-  display: inline-block;
-  animation: glowedot 1s infinite alternate;
-margin-bottom: 1.5px;
-}
-
-
-
+</center>
+     
+</section>
+	   
+	   
+	    </div>
+	   
+    </body>
+   </html>
