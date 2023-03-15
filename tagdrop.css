@@ -5,7 +5,7 @@
    ========================================================================== */
 
 /**
- * v.25
+ * v.26
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
@@ -39,16 +39,14 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
+h6 {
   font-size: 10pt;
 	 font-family: "Montserrat", sans-serif;
-  margin: 0.67em 0;
+  margin: auto;
 	color: #ffffff;
-	line-height: 0px;
-	position: absolute;
-
-left: 294px;
-top: 331px;
+	line-height: 10px;
+	margin: 20px;
+	padding-bottom: -100px;
 }
 
 h3 {
@@ -60,10 +58,10 @@ h3 {
 }
 
 h5 {
-  font-size: 120pt;
+  font-size: 100pt;
 	 font-family: "Montserrat", sans-serif;
 font-weight: 600;
-  margin: 0.67em 0;
+  margin: 0.5em 0em .62em 0em; /* TOP RIGHT BOTTOM LEFT - CLOCKWISE */
 	color: #ffffff;
 	line-height: 0px;
 }
@@ -152,7 +150,8 @@ samp {
  */
 
 small {
-  font-size: 80%;
+  font-size: 70%;
+  color: #727272;
 }
 
 /**
@@ -415,35 +414,42 @@ letter-spacing: 0.04em;
 
 
 .ch-container {
-  max-width: 777px;=
-  margin: 0 auto;
+  max-width: 900px;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  padding: 0 1em;
-	
+
 		/* Rectangle 1 */
 
 
 box-sizing: border-box;
-
-position: absolute;
-width: 800px;
-height: 900px;
-left: 106px;
-top: 105px;
+margin-top: 75px;
+margin-bottom: 75px;
+width: 900px;
+height: 1200px;
 animation: borderglowe 1s infinite alternate;
 border: 5px solid #FFFFFF;
 
 }
 
 
+.video-container {
+	  max-width: 600px;
+box-sizing: border-box;
+animation: borderglowe 1s infinite alternate;
+border: 3px solid #FFFFFF;
+
+}
+
+/* SECTION BLUE BORDERS */
 
 .ch-section {
   text-align: center;
   margin: 0.5em 0;
   padding: 0.5em 0;
 	line-height: 20px;
-	
+	border: 0px solid blue;
+
 }
 p.lead {
   font-size: 5em;
@@ -463,15 +469,75 @@ p.lead {
 }
 
 
-#ch-logo {
 
-position: absolute;
-	width: 212px;
-height: 78px;
-left: 280px;
-top: -44px;
-animation: borderglowe 1s infinite alternate;
+
+
+
+.youtube-container {
+    overflow: hidden;
+    width: 100%;
+    /* Keep it the right aspect-ratio */
+    aspect-ratio: 16/9;
+    /* No clicking/hover effects */
+    pointer-events: none;
+} 
+
+.youtube-container iframe {
+    /* Extend it beyond the viewport... */
+    width: 300%;
+    height: 100%;
+    /* ...and bring it back again */
+    margin-left: -100%;
 }
+
+
+
+
+
+// managers
+.manager-headline {
+    font-size: 24px;
+    color: $xcellent-blue;
+    text-align: center;
+	
+}
+
+.manager-textbox {
+    background-color: #f4f6f9;
+    box-shadow: 0 -3px 0 0 #303f9f;
+    position: relative;
+    margin-top: 60px;
+	
+}
+
+
+#manager  .teaser-header-what {
+    padding-left: 0px;
+}
+.manager-portrait {
+ position: absolute;
+ top: -103px;
+ left: 50%;
+ -webkit- transform: translateX(-50%);
+ transform: translateX(-50%);
+ animation: borderglowe 1s infinite alternate;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #ch-header h1,
 #ch-header h2 {
@@ -479,49 +545,74 @@ animation: borderglowe 1s infinite alternate;
 font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 700;
-font-size: 32px;
-line-height: 40px;
+font-size: 30px;
 text-align: center;
 letter-spacing: 0.40em;
-
+padding-left: 10px;
+margin-bottom: 10px;
 color: #FFFFFF;
 }
-#ch-header #ch-titlem {
-  font-size: 1.7rem;
-	 padding-top: 1.7em;
-	
-}
+
+
+
+
+
 #ch-messagem {
+  display: block;
   color: #ffffff;
   box-shadow: 0 2px 2px 0 #0000001a;
-  padding: 1.5em;
+  padding: 1.7em;
 background: rgba(217, 217, 217, 0.13);
 box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
   max-width: 70%;
-  margin: 1em auto;
+  margin: 40px auto;
+  margin-bottom: 0px;
  font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 10px;
 line-height: 18px;
 text-align: center;
-letter-spacing: 0.15em;
+letter-spacing: 0.25em;
+
 }
 
 
+#ch-header {
+	padding-top: 0px;
+}
+	
+
+
 #ch-header #ch-message {
+  display: inline;
   color: #ffffff;
-  padding: 0em;
   max-width: 70%;
-  margin: 0em auto;
  font-family: "Montserrat", sans-serif;
 font-style: normal;
-font-weight: 300;
-font-size: 10px;
-line-height: 10px;
+font-weight: 700;
+font-size: 12px;
+line-height: 30px;
 text-align: center;
 letter-spacing: 0.15em;
+animation: glowefont 1s infinite alternate;
+border: solid 2px white;
+background-color: #131313;
+padding: 12px;
+
+
+}
+
+.currentstock {
+font-family: "Montserrat", sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.2em;
+color: #FFFFFF; 
 }
 
 #ch-active {
@@ -561,6 +652,48 @@ letter-spacing: 0.15em;
     box-shadow:0px 0px 20px #FFFFFF;
   }
 }
+
+
+
+@-webkit-keyframes glowefont {
+  from {
+    box-shadow:0px 0px 5px #FFFFFF;
+  }
+  to {
+    box-shadow:0px 0px 15px #FFFFFF;
+  }
+}
+@keyframes glowefont {
+  from {
+   box-shadow:0px 0px 5px #FFFFFF;
+  }
+  to {
+    box-shadow:0px 0px 15px #FFFFFF;
+  }
+}
+
+
+
+
+@-webkit-keyframes glowedot {
+  from {
+    box-shadow:0px 0px 0px 1px #A9E99D;
+  }
+  to {
+    box-shadow:0px 0px 0px 1.5px #A9E99D;
+  }
+}
+@keyframes glowedot {
+  from {
+   box-shadow:0px 0px 0px 1px #A9E99D;
+  }
+  to {
+    box-shadow:0px 0px 0px 1.5px #A9E99D;
+  }
+}
+
+
+
 
 #ch-active .progress {
   height: 20px;
@@ -663,8 +796,8 @@ letter-spacing: 0.15em;
 }
 #ch-active .progress {
   margin: 20px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 #ch-active #ch-estimated-wait {
   display: block;
@@ -755,11 +888,12 @@ letter-spacing: 0.5em;
   min-width: 200px;
 	 font-family: "Montserrat", sans-serif;
   width: 100%;
-  margin: 0 auto;
-		position: absolute;
+  margin-top: 0px;
+    margin-bottom: -20px;
 	width: 200px;
-left: 380px;
-top: 1050px;
+		border: solid 0px #fff;
+	
+
 
 	
 }
@@ -781,17 +915,18 @@ top: 1050px;
   border-left: 0;
 }
 #ch-priority .ch-priority-input {
-border: 2px solid #FFFFFF;
+border: 1px solid #424242;
   border-right: 0;
+    border-radius: 2px 0px 0px 2px;
   padding: 7px;
   width: 100%;
   flex: 1 0 80%;
-background: none;
+background: #1C1C1C;
 	font-family: "Montserrat", sans-serif;
 font-style: normal;
 	 color: #fff;
 font-weight: 400;
-font-size: 13px;
+font-size: 11px;
 text-align: LEFT;
 letter-spacing: .1em;
 
@@ -836,9 +971,10 @@ letter-spacing: .1em;
 	 font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 700;
-font-size: 14px;
+font-size: 11px;
 text-align: center;
 letter-spacing: .05em;
+background: #fff;
 }
 #ch-priority .input-group-btn button:hover {
   color: #fff;
@@ -916,8 +1052,12 @@ letter-spacing: .1em;
   }
 }
 #ch-footer {
-  display: block;
-  margin-top: 5em;
+display: block;
+  min-width: 200px;
+  width: 100%;
+	width: 200px;
+		height: 25px;
+	border: solid 0px #fff;
 }
 #ch-footer a img {
   width: 150px;
@@ -930,10 +1070,7 @@ letter-spacing: .1em;
   justify-content: center;
   align-items: center;
   margin-bottom: 1em;
-			position: absolute;
 	width: 212px;
-left: 384px;
-top: 1100px;
 }
 #ch-token-copy {
   border: none;
@@ -947,16 +1084,18 @@ top: 1100px;
   font-size: 12px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+   color: #727272;
 }
 #ch-token-copy.ch-token-clicked .checkmark {
   display: block;
   opacity: 1;
+   color: #727272;
 }
 #ch-token {
-  color: white;
+  color: #727272;
   border-radius: 4px;
   padding: 2px 4px;
-  font-size: 90%;
+
 }
 #ch-token:hover {
   color: #FD6262;
@@ -966,10 +1105,37 @@ top: 1100px;
 
 #pleasekeep {
 	
-position: absolute;
-width: 504px;
-height: 68px;
-left: 130px;
+width: 670px;
+font-family: "Montserrat", sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 17px;
+text-align: center;
+letter-spacing: 0.07em;
+color: #FFFFFF;
+margin-top: 0px;
+margin-bottom: 20px;
+}
+
+#skipline {
+
+width: 692px;
+height: 28px;
+
+
+
+}
+
+
+
+#welcome {
+	
+
+width: 600px;
+
+top: 0px;
+margin-bottom: 30px;
 
 	
 	 font-family: "Montserrat", sans-serif;
@@ -985,34 +1151,17 @@ color: #FFFFFF;
 
 }
 
-#skipline {
-position: absolute;
-width: 692px;
-height: 28px;
-left: 787px;
-top: 859px;
-
-
-}
-
-
-
-#welcome {
+.welcome2 {
 	
-position: relative;
 
-height: 0px;
-top: 5px;
-margin: 50px;
 
-	
 	 font-family: "Montserrat", sans-serif;
 font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
+font-weight: 300;
+font-size: 12px;
+line-height: 17px;
 text-align: center;
-letter-spacing: 0.08em;
+letter-spacing: 0.07em;
 
 color: #FFFFFF;
 
@@ -1020,66 +1169,56 @@ color: #FFFFFF;
 }
 
 
+
 #globeicon {
 /* bi:globe */
 
+padding-right: 50px;
 
-position: absolute;
 width: 19px;
 height: 19px;
-left: 300px;
-top: 740px;
+
 }
 
 
 #xicon {
 /* icon-park-outline:big-x */
-position: absolute;
+
 width: 21px;
 height: 21px;
-left: 370px;
-top: 739px;
+
 }
 
 #atomicon {
 /* file-icons:jsx-atom */
-position: absolute;
+padding-left: 50px;
 width: 21px;
 height: 21px;
-left: 440px;
-top: 739px;
+
 }
 
 
 #roman {
 	/* III · IX · MMXXIII */
 
-position: absolute;
-width: 692px;
-height: 23px;
-left: 38px;
-top: 772px;
 
- font-family: "Montserrat", sans-serif;
+
+font-family: "Montserrat", sans-serif;
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 font-size: 10px;
-line-height: 13px;
+line-height: 20px;
 text-align: center;
-letter-spacing: 0.705em;
-
+letter-spacing: 0.905em;
 color: #FFFFFF;
+padding-top: 10px;
 }
 
 
 #mission {
-	/* III · IX · MMXXIII */
+	/* MISSION STATEMENT */
 
-position: absolute;
-width: 692px;
-height: 23px;
-left: 38px;
-top: 810px;
+
 
  font-family: "Montserrat", sans-serif;
 font-style: normal;
@@ -1105,13 +1244,12 @@ color: #FFFFFF;
 
 box-sizing: border-box;
 
-position: absolute;
+
 width: 800px;
 height: 900px;
-left: 900px;
-top: 70px;
 
-border: 0px solid #FFFFFF;
+
+border: 1px solid #FFFFFF;
 }
 .second-section {
   text-align: center;
@@ -1120,3 +1258,21 @@ border: 0px solid #FFFFFF;
 	line-height: 20px;
 	
 }
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+.dot {
+  height: 6px;
+  width: 6px;
+  background-color: #A9E99D;
+  border-radius: 50%;
+  display: inline-block;
+  animation: glowedot 1s infinite alternate;
+margin-bottom: 1.5px;
+}
+
+
+
