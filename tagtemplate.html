@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-      <title>TAG Grading Drop Waiting Room</title>
-<link rel="stylesheet" href="https://existentialthread.github.io/start/tagdrop.css" crossorigin="anonymous">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-      <meta name="robots" content="noindex" />
-	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+   <title>TAG Grading Drop Waiting Room</title>
+   <link rel="stylesheet" href="https://existentialthread.github.io/start/tagdrop.css" crossorigin="anonymous">
 
-	   
-	   
-	   
-   </head>
-	
-	
-   <body class="ch-loading">
-	   
-	   
+   <meta name="robots" content="noindex" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet">
 
-	   
- 
-	
-        
+  
 
 
-<!--
+</head>
+
+
+<body class="ch-loading">
+
+
+
+
+
+
+
+
+
+   <!--
 <video width="100" autoplay loop muted>
   <source src="https://cdn.shopify.com/videos/c/o/v/c1e57c6557a9440c9cee5cf51c6df75c.mp4" type="video/mp4" />
   <source src="https://cdn.shopify.com/videos/c/o/v/c1e57c6557a9440c9cee5cf51c6df75c.ogg" type="video/ogg" />
@@ -41,311 +42,270 @@
 
 
 
- 
-	   
-	   
-	   
-      <div class="ch-container">
-		  
-   <div class="manager-textbox">
-			   <img src="https://existentialthread.github.io/start/Tag_Logo_Official_noText_KNOCKOUT-withBlackBehind.svg" class="manager-portrait" style="height:80px">
-        
-   
-        </div>       
-  
-		
-         <section class="ch-section" id="ch-header">
-            <h2 id="ch-titlem">TRUST IN TRANSPARENCY</h2>
-	
-	<hr style="height:2px; background-color:#ffffff; animation: borderglowe 1s infinite alternate;" width="74%">
-
-
-	<center>
-				 
-				 	  <!-- ROMAN NUMERAL DATE !-->	 
-		  
-		  <p id="roman">IV · XIII · MMXXIII</p>
-				 
-				 
-				 
 
 
 
 
-		
-		  
-		  
-		  
-		  
-		  
-		  			  <!-- MISSION STATEMENT !-->	 
-		  
-		  
-		 <p id="mission">  TO USE INNOVATION, TO APPLY TECHNOLOGIES, AND TO CREATE FOR EACH COLLECTOR: <br> TRANSPARENCY, ACCURACY, AND CONSISTENCY FOR EVERY CARD GRADED.</p>
-		  
-		  
-		  <br>
-		  
-		 
+   <div class="ch-container">
 
-		  
-		  
-				 <!-- WELCOME
+      <div class="manager-textbox">
+         <img src="https://existentialthread.github.io/start/Tag_Logo_Official_noText_KNOCKOUT-withBlackBehind.svg"
+            class="manager-portrait" style="height:80px">
+
+
+      </div>
+
+
+      <section class="ch-section" id="ch-header">
+         <h2 id="ch-titlem">TRUST IN TRANSPARENCY</h2>
+
+         <hr style="height:2px; background-color:#ffffff; animation: borderglowe 1s infinite alternate;" width="74%">
+
+
+         <center>
+
+            <!-- ROMAN NUMERAL DATE !-->
+
+            <!-- <p id="roman">IV · XIII · MMXXIII</p> -->
+            <p id="roman"></p>
+
+            <script type="text/javascript">
+               var d = new Date();
+               var day = d.getDate();
+               var month = new Array();
+               month[0] = "I";
+               month[1] = "II";
+               month[2] = "III";
+               month[3] = "IV";
+               month[4] = "V";
+               month[5] = "VI";
+               month[6] = "VII";
+               month[7] = "VIII";
+               month[8] = "IX";
+               month[9] = "X";
+               month[10] = "XI";
+               month[11] = "XII";
+               var year = d.getFullYear();
+               var romanDate = month[d.getMonth()] + " · " + toRomanNumeral(day) + " · " + toRomanNumeral(year);
+               document.getElementById("roman").innerHTML = romanDate;
+               
+               function toRomanNumeral(num) {
+                  var roman = "";
+                  var romanNumList = {M:1000,CM:900,D:500,CD:400,C:100,XC:90,L:50,XL:40,X:10,IX:9,V:5,IV:4,I:1};
+                  var a;
+                  if(num < 1 || num > 3999)
+                     return "N/A";
+                  else {
+                     for(var key in romanNumList) {
+                        a = Math.floor(num / romanNumList[key]);
+                        if(a >= 0) {
+                           for(var i = 0; i < a; i++) {
+                              roman += key;
+                           }
+                        }
+                        num = num % romanNumList[key];
+                     }
+                  }
+                  return roman;
+               }
+            </script>
+
+
+
+
+
+            <!-- MISSION STATEMENT !-->
+
+
+            <p id="mission"> TO USE INNOVATION, TO APPLY TECHNOLOGIES, AND TO CREATE FOR EACH COLLECTOR: <br>
+               TRANSPARENCY, ACCURACY, AND CONSISTENCY FOR EVERY CARD GRADED.</p>
+
+
+            <br>
+
+
+
+
+
+            <!-- WELCOME
 			 <div id="welcome">Welcome to the official TAG Grading Drop. 
 			 
 
 	
 			 </div> !-->
-			 
-			 
-			 
-			 
-			 
-			 
-			 
-			 		
-			 
-			 	 <!-- YOUTUBE CLIP  !-->
-			 		 <iframe
-    width="500" height="280"
-    src="https://www.youtube.com/embed/WhCwL1LVS1M?autoplay=1&mute=1&enablejsapi=1"
-
-style="border: 0px solid #FFFFFF; animation: borderglowe 1s infinite alternate; margin-top: 10px; padding: 10px;">
-
-</iframe>
-			 
-	 
-	 
-	 
-	 
-	  <!-- BOX SECTION SAYS WHAT THE ITEMS ARE !-->	 	
-		 
-			 
-			 <p id="ch-messagem">
-			 
-			 
-CURRENT DROP • 5 CARD GRADING PKGS • 2 PKGS MAX PER PERSON • $14 / CARD
-			 
-			 
-			 
-			 </p>
-	 
-	 
-	 
-	 
-	 
-		</center>
-        
 
 
 
 
 
-		
-			 
-			 
-			 
-			 
-				 <!-- SECTION FOR RECAPTCHA / BLOCKING / WAITING ROOM FULL !-->	 
-		 
-		 
-		
-	      
-	      
-		  
-         <section class="ch-section" id="ch-captcha"> 
+
+
+
+
+            <!-- YOUTUBE CLIP  !-->
+            <iframe width="500" height="280"
+               src="https://www.youtube.com/embed/WhCwL1LVS1M?autoplay=1&mute=1&enablejsapi=1"
+               style="border: 0px solid #FFFFFF; animation: borderglowe 1s infinite alternate; margin-top: 10px; padding: 10px;">
+
+            </iframe>
+
+
+
+
+
+            <!-- BOX SECTION SAYS WHAT THE ITEMS ARE !-->
+
+
+            <p id="ch-messagem">
+
+
+               CURRENT DROP • 5 CARD GRADING PKGS • 2 PKGS MAX PER PERSON • $14 / CARD
+
+
+
+            </p>
+
+
+
+
+
+         </center>
+
+
+
+
+
+
+
+
+
+
+
+         <!-- SECTION FOR RECAPTCHA / BLOCKING / WAITING ROOM FULL !-->
+
+
+
+
+
+
+         <section class="ch-section" id="ch-captcha">
             <p id="ch-captcha-message">Please complete the captcha to proceed</p>
             <div id="ch-captcha-form"></div>
          </section>
-		  
+
          <section class="ch-section" id="ch-blocked">
             <p class="alert alert-danger" role="alert">You have been blocked due to suspicious activity.</p>
          </section>
-		  
+
          <section class="ch-section" id="ch-room-full">
-            <p class="lead">We're sorry, the waiting room is full. We will let you in if a position becomes available.</p>
+            <p class="lead">We're sorry, the waiting room is full. We will let you in if a position becomes available.
+            </p>
          </section>
-		  
+
          <section class="ch-section" id="ch-prelude">
             <div id="ch-sooner">
-               <p class="lead"><h3>QUEUE OPENS IN <br><strong id="ch-countdown">SOON</strong></p>
+               <p class="lead">
+               <h3>QUEUE OPENS IN <br><strong id="ch-countdown">SOON</strong></p>
             </div>
             <div id="ch-later">
-               <p class="lead">WAITING ROOM OPENS<br><strong id="ch-datetime">CHECKING DATE</strong></p></h3>
-            </div>
-			
-         </section>
-		 
-		 
-	
-
-    </section>
-		 
-		 
-		 
-		 
-		 
-		 	<!-- CURRENT AVAILABILITY IN STOCK !-->
-			 <div class="ch-section" id="ch-header">
-			
- <!-- <font class="currentstock">CURRENT AVAILABILITY</font> !--><center>
-<p id="ch-message" class="alert alert-info" role="alert">CURRENT AVAILABILITY: IN STOCK </p> </center>
-</div>
-
-
-
-
-		 <!-- NEXT SECTION / POSITION IN LINE !-->
-		 
-
-         <section class="ch-section" id="ch-active">
-		 
-		 
-		 
-		 
-
-			 <h6>YOUR POSITION IN LINE:</h6>
-			 <h5>
-			 <strong id="ch-count">-</strong></h5>
-			 
-			 
-			 
-			  <!-- ESTIMATED WAIT TIME / PROGRESS BAR !-->	 
-			 
-			 
-            <div class="progress">
-               <div id="ch-progress" class="progress-bar progress-bar-pulse" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+               <p class="lead">WAITING ROOM OPENS<br><strong id="ch-datetime">CHECKING DATE</strong></p>
+               </h3>
             </div>
 
-            <div id="ch-estimated-wait" class="ch-show">
-               ESTIMATED WAIT TIME:
-               <span id="ch-estimated-placeholder">
-                  <img src="https://existentialthread.github.io/start/spincircle.gif" width="14px"/>
-               </span>
-               <span id="ch-estimated-hours" class="ch-hide"><strong class="ch-number"></strong> HOURS</span> 
-               <span id="ch-estimated-minutes" class="ch-hide"><strong class="ch-number"></strong> MINUTES</span>
-            </div>
-
-          
-			 
-			 <br>
-			 
-			  
-			 
-			 
-			 
-			 			  <!-- NOTICE KEEP BROWSER OPEN 	!--> 
-			<center> <div class="ch-section" id="pleasekeep">
-			 Your place in line will automatically update as customers in front of you place their orders. Please keep your browser open and remember not to refresh or exit this page as you will lose your current place in line.
-			 </div>
-			 </center>
-			 
-		
-			 
-			 
-			 
          </section>
 
 
-			  <!-- IF SHOWING STOCK !-->	 
-		  
-         <section class="ch-section ch-hide" id="ch-stock">
-            <p id="ch-stock-available" class="">Availability <span id="ch-stock-value">X</span> items</p>
-            <p id="ch-stock-unavailable" class="ch-hide">
-               We’re all sold out, sorry please come again next time!
-            </p>
-         </section>
 
-       
-	   
-	   
-	   
-	    <section class="ch-section" id="ch-active">
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-			  <!-- PRIORITY CODE / TOKEN !-->	 
+
+      </section>
 
 
 
 
-   <script src="https://wait.crowdhandler.com/js/latest/main.js?id=ch-public-key"></script>
-  
 
-	  
-	   <center>
+      <!-- CURRENT AVAILABILITY IN STOCK !-->
+      <div class="ch-section" id="ch-header">
 
-                  
-
-
-         <section class="ch-section" id="ch-priority">
-         
-            <form>
-               <div class="ch-priority-group">
-                  <input id="ch-priority-input" type="text" class="ch-priority-input" placeholder="ENTER PRIORITY CODE" aria-label="Enter Code">
-                  <span class="input-group-btn">
-                     <button  id="ch-priority-btn-action" class="btn btn-default" type="submit">
-                        <span class="ch-show">
-                           SUBMIT
-                        </span>
-                     </button>
-                  </span>
-                  <span id="ch-priority-success" class="ch-icon ch-hide ch-priority-group-add-item">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  </span>
-                  <span id="ch-priority-error" class="ch-icon ch-hide ch-priority-group-add-item">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                  </span>
-                </div>
-            </form>
-
-         </section>
-                  
-	
-	
-	
-	
-	
-
-
-    <section class="ch-section" id="ch-footer">
-      
-            
-            <p class="ch-token">
-               <small>ID: <code id="ch-token">tok_4ME******gXW</code></small>
-               <svg id="ch-token-copy" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <text class="checkmark" x="8" y="18" >✓</text>
-                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
-                  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
-               </svg>
-            </p>
-
-                  
-         </section>
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-		  
-		  			
-		  
+         <!-- <font class="currentstock">CURRENT AVAILABILITY</font> !-->
+         <center>
+            <p id="ch-message" class="alert alert-info" role="alert">CURRENT AVAILABILITY: IN STOCK </p>
+         </center>
       </div>
 
 
 
 
-    
+      <!-- NEXT SECTION / POSITION IN LINE !-->
+
+
+      <section class="ch-section" id="ch-active">
+
+
+
+
+
+         <h6>YOUR POSITION IN LINE:</h6>
+         <h5>
+            <strong id="ch-count">-</strong>
+         </h5>
+
+
+
+         <!-- ESTIMATED WAIT TIME / PROGRESS BAR !-->
+
+
+         <div class="progress">
+            <div id="ch-progress" class="progress-bar progress-bar-pulse" role="progressbar" aria-valuenow="25"
+               aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+
+         <div id="ch-estimated-wait" class="ch-show">
+            ESTIMATED WAIT TIME:
+            <span id="ch-estimated-placeholder">
+               <img src="https://existentialthread.github.io/start/spincircle.gif" width="14px" />
+            </span>
+            <span id="ch-estimated-hours" class="ch-hide"><strong class="ch-number"></strong> HOURS</span>
+            <span id="ch-estimated-minutes" class="ch-hide"><strong class="ch-number"></strong> MINUTES</span>
+         </div>
+
+
+
+         <br>
+
+
+
+
+
+         <!-- NOTICE KEEP BROWSER OPEN 	!-->
+         <center>
+            <div class="ch-section" id="pleasekeep">
+               Your place in line will automatically update as customers in front of you place their orders. Please keep
+               your browser open and remember not to refresh or exit this page as you will lose your current place in
+               line.
+            </div>
+         </center>
+
+
+
+
+
+      </section>
+
+
+      <!-- IF SHOWING STOCK !-->
+
+      <section class="ch-section ch-hide" id="ch-stock">
+         <p id="ch-stock-available" class="">Availability <span id="ch-stock-value">X</span> items</p>
+         <p id="ch-stock-unavailable" class="ch-hide">
+            We’re all sold out, sorry please come again next time!
+         </p>
+      </section>
+
+
+
+
+
+      <section class="ch-section" id="ch-active">
 
 
 
@@ -354,90 +314,204 @@ CURRENT DROP • 5 CARD GRADING PKGS • 2 PKGS MAX PER PERSON • $14 / CARD
 
 
 
-</center>
-     
-</section>
-	   
-	   
-	    </div>
-	   <style>
-         @media (max-width: 768px){
-            .ch-container, iframe, #pleasekeep{
-               width: 95%!important;
-    max-width: unset!important;
-    height: auto!important;
-            }
-            h2#ch-titlem {
-    font-size: 23px!important;
-    line-height: 34px;
-}
-#ch-priority .ch-priority-group {
-    max-width: unset;
-    margin: 0 auto;
-    display: block!important;
-    display: -ms-flexbox;
-    width: 100%!important;
-}
-#ch-priority .ch-priority-input {
-    border: 1px solid #424242;
-    border-right: 0;
-    border-radius: 2px 0px 0px 2px;
-    padding: 7px;
-    width: 189px;
-    flex: 1 0 55%;
-    background: #1C1C1C;
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    color: #fff;
-    font-weight: 400;
-    font-size: 11px;
-    text-align: LEFT;
-    letter-spacing: .1em;
-}
-#mission {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 9px;
-    line-height: 13px;
-    text-align: center;
-    letter-spacing: 0.305em;
-    color: #FFFFFF;
-}
-#ch-priority .ch-priority-input, #ch-priority .input-group-btn {
 
-    float: left!important;
-}
-#ch-priority .input-group-btn button {
-   width: 100%;
-    border-top: none;
-    border-radius: 0px 4px 4px 0px;
-    height: 29px;
-    padding: 19px 10px;
-}
-span.ch-show {
-    color: #000000!important;
-    z-index: 999999!important;
-    opacity: 1!important;
-}
-#ch-priority .ch-priority-input {
+         <!-- PRIORITY CODE / TOKEN !-->
 
-    padding: 12px;
 
-}
-#ch-footer {
-    display: block;
-    height: auto;
-    margin-top: 20px;
-}
-#ch-priority {
 
-    height: 40px;
-}
-.ch-container {
-    padding: 0px 15px;
-}
+
+         <script src="https://wait.crowdhandler.com/js/latest/main.js?id=ch-public-key"></script>
+
+
+
+         <center>
+
+
+
+
+            <section class="ch-section" id="ch-priority">
+
+               <form>
+                  <div class="ch-priority-group">
+                     <input id="ch-priority-input" type="text" class="ch-priority-input"
+                        placeholder="ENTER PRIORITY CODE" aria-label="Enter Code">
+                     <span class="input-group-btn">
+                        <button id="ch-priority-btn-action" class="btn btn-default" type="submit">
+                           <span class="ch-show">
+                              SUBMIT
+                           </span>
+                        </button>
+                     </span>
+                     <span id="ch-priority-success" class="ch-icon ch-hide ch-priority-group-add-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                           class="feather feather-check">
+                           <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                     </span>
+                     <span id="ch-priority-error" class="ch-icon ch-hide ch-priority-group-add-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                           class="feather feather-x">
+                           <line x1="18" y1="6" x2="6" y2="18"></line>
+                           <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                     </span>
+                  </div>
+               </form>
+
+            </section>
+
+
+
+
+
+
+
+
+            <section class="ch-section" id="ch-footer">
+
+
+               <p class="ch-token">
+                  <small>ID: <code id="ch-token">tok_4ME******gXW</code></small>
+                  <svg id="ch-token-copy" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                     <text class="checkmark" x="8" y="18">✓</text>
+                     <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                     <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                  </svg>
+               </p>
+
+
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </center>
+
+   </section>
+
+
+   </div>
+   <style>
+      @media (max-width: 768px) {
+
+         .ch-container,
+         iframe,
+         #pleasekeep {
+            width: 95% !important;
+            max-width: unset !important;
+            height: auto !important;
          }
-      </style>
-    </body>
-   </html>
+
+
+
+         h2#ch-titlem {
+            font-size: 23px !important;
+            line-height: 34px;
+         }
+
+         #ch-priority .ch-priority-group {
+            max-width: unset;
+            margin: 0 auto;
+            display: block !important;
+            display: -ms-flexbox;
+            width: 100% !important;
+         }
+
+         #ch-priority .ch-priority-input {
+            border: 1px solid #424242;
+            border-right: 0;
+            border-radius: 2px 0px 0px 2px;
+            padding: 7px;
+            width: 189px;
+            flex: 1 0 55%;
+            background: #1C1C1C;
+            font-family: "Montserrat", sans-serif;
+            font-style: normal;
+            color: #fff;
+            font-weight: 400;
+            font-size: 11px;
+            text-align: LEFT;
+            letter-spacing: .1em;
+         }
+
+         #mission {
+            font-family: "Montserrat", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 9px;
+            line-height: 13px;
+            text-align: center;
+            letter-spacing: 0.305em;
+            color: #FFFFFF;
+         }
+
+         #ch-priority .ch-priority-input,
+         #ch-priority .input-group-btn {
+
+            float: left !important;
+         }
+
+         #ch-priority .input-group-btn button {
+            width: 100%;
+            border-top: none;
+            border-radius: 0px 4px 4px 0px;
+            height: 29px;
+            padding: 19px 10px;
+         }
+
+         span.ch-show {
+            color: #000000 !important;
+            z-index: 999999 !important;
+            opacity: 1 !important;
+         }
+
+         #ch-priority .ch-priority-input {
+
+            padding: 12px;
+
+         }
+
+         #ch-footer {
+            display: block;
+            height: auto;
+            margin-top: 20px;
+         }
+
+         #ch-priority {
+
+            height: 40px;
+         }
+
+         .ch-container {
+            padding: 0px 15px;
+         }
+      }
+   </style>
+</body>
+
+</html>
