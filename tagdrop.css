@@ -23,15 +23,6 @@ html {
  */
 
 
- a {
-            color: #FD6262;
-             /* Optional: remove the underline */
-        }
-
-        a:hover {
-            color: #A84848; 
-		text-decoration: none;/* A greyer shade of the original color */
-        }
 
 
 body {
@@ -124,6 +115,24 @@ pre {
 a {
   background-color: transparent;
 }
+
+   a {
+            color: #FD6262;
+            text-decoration: none; /* Remove the underline */
+        }
+
+        /* Define the hover state */
+        a:hover {
+            color: #A84848;
+            text-decoration: none; /* Remove the underline on hover */
+        }
+
+        /* Define the clicked/visited state */
+        a:visited {
+            color: #FD6262;
+        }
+
+
 
 /**
  * 1. Remove the bottom border in Chrome 57-
