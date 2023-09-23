@@ -81,7 +81,6 @@
 				 	  <!-- ROMAN NUMERAL DATE !-->	 
 		  
 		  <p id="roman"></p>
-				 
 			    <script>
         function intToRoman(num) {
             const val = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
@@ -106,14 +105,15 @@
             const month = dateObj.getMonth() + 1;
             const year = dateObj.getFullYear();
 
-            return `${intToRoman(day)} · ${intToRoman(month)} · ${intToRoman(year)}`;
+            // Switched the order here
+            return `${intToRoman(month)} · ${intToRoman(day)} · ${intToRoman(year)}`;
         }
 
         // Update the content of the "roman" element with the Roman numeral date
         getCurrentDateInCalifornia().then(date => {
             document.getElementById('roman').textContent = date;
         });
-    </script>	 
+    </script>
 				 
 
 
