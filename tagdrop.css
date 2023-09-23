@@ -22,6 +22,18 @@ html {
  * Remove the margin in all browsers.
  */
 
+
+ a {
+            color: #FD6262;
+             /* Optional: remove the underline */
+        }
+
+        a:hover {
+            color: #A84848; 
+		text-decoration: none;/* A greyer shade of the original color */
+        }
+
+
 body {
   margin: 0;
 }
